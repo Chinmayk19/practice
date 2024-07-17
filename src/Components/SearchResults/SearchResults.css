@@ -53,6 +53,6 @@ span{
 @media screen and (max-width: 800px) {
     .result-container {
         flex-direction: column;
-        width: 50%;
+        width: 80%;
     }
 }
