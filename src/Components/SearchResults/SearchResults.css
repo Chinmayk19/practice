@@ -5,7 +5,6 @@
 }
 .result-card{
     display: flex;
-    width: 45%;
     flex-direction: column;
     justify-content: center;
     gap: 5px;
