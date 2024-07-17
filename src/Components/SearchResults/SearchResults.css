@@ -50,8 +50,9 @@ span{
 .miles{
     font-size: 14px;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 800px) {
     .result-container {
         flex-direction: column;
+        width: 50%;
     }
 }
