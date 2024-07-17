@@ -5,7 +5,7 @@
 }
 .result-card{
     display: flex;
-    width: 50%;
+    width: 45%;
     flex-direction: column;
     justify-content: center;
     gap: 5px;
@@ -34,6 +34,9 @@
     justify-content: center;
     align-items: center;
 }
+.result-card-destination p{
+    font-size: 20px;
+}
 .result-card-classes{
     display: flex;
     flex-direction: column;
@@ -44,6 +47,9 @@
 span{
     font-weight: bold;
     font-size: 40px;
+}
+.miles{
+    font-size: 14px;
 }
 @media screen and (max-width: 550px) {
     .result-container {
