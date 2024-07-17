@@ -1,0 +1,35 @@
+.search-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 3px;
+    width: 60%;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #141313;
+    margin-bottom: 30px;
+}
+.custom-select{
+    background-color: #141313;
+    appearance: none;
+    padding: 0 2px 0 2px;
+    width: 100%;
+    color: white;
+    border: none;
+    font-size: 18px;
+    z-index: 1;
+}
+.custom-select:focus{
+    border: none;
+    outline: none;
+}
+.custom-select:valid{
+    border: none;
+    outline: none;
+}
+.dropdown-arrow{
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    font-size: 25px;
+}
