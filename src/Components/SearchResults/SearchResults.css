@@ -45,3 +45,8 @@ span{
     font-weight: bold;
     font-size: 40px;
 }
+@media screen and (max-width: 550px) {
+    .result-container {
+        flex-direction: column;
+    }
+}
