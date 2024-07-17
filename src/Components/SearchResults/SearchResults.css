@@ -1,0 +1,47 @@
+.result-container{
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+.result-card{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #1f592c;
+    padding: 20px;
+}
+.result-card img{
+    width:70px;
+    height: 70px;
+}
+.result-card-name{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.result-card-destination-time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.result-card-destination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result-card-classes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+span{
+    font-weight: bold;
+    font-size: 40px;
+}
