@@ -1,10 +1,11 @@
 .result-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     margin-top: 25px;
 }
 .result-card{
-    display: flex;
+    display: grid;
     flex-direction: column;
     justify-content: center;
     gap: 5px;
