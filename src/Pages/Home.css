@@ -7,3 +7,8 @@
     width: 690px;
     margin: auto;
 }
+@media screen and (max-width:690px) {
+    .App{
+        width: 100%;
+    }
+}
