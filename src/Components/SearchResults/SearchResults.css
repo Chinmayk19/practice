@@ -5,9 +5,10 @@
     margin-top: 25px;
 }
 .result-card{
-    display: grid;
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 5px;
     align-items: center;
     border-radius: 10px;
